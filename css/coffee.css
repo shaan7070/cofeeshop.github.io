@@ -1,0 +1,460 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: red; */
+    scroll-behavior: smooth;
+    
+}
+
+#wrapper
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+   
+
+}
+#header
+{
+    height: 90px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.858);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+#toplogo
+{
+    width: 350px;
+    height: 60px;
+    padding-left: 30px;
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#topmenu
+{
+    width: 500px;
+    height: 35px;
+
+}
+#topmenu ul
+{
+    list-style-type: none;
+    display: flex;
+}
+#topmenu ul li
+{
+    width: 100px;
+}
+#topmenu ul li a
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#topmenu ul li a:hover
+{
+    color: rgb(185, 77, 23);
+}
+
+            /*About section*/
+
+
+#banner
+{
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/banner-bg.png);
+    background-size: cover;
+    padding: 120px;
+}
+#bannerdata
+{
+    width: 700px;
+    height: 300px;
+    padding: 20px;
+}
+#outstanding
+
+{
+    font-size: 60px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+#coffee
+{
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#contentp
+{
+    color: aliceblue;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+button
+{
+    color: white;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    transition-duration: 1s;
+}
+button:hover
+{
+    background-color: rgb(219, 104, 46);
+}
+
+/* about */
+
+
+#about
+{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#aboutdata
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    
+}
+
+#aboutus 
+{
+    width: 500px;
+    height: 400px;
+    padding-top: 150px;
+    margin-left: 150px;
+
+}
+#imageabout
+{
+    width: 500px;
+    height: 500px;
+    background-image: url(../image/about-img.png);
+    background-size: cover;
+    margin-right: 120px;
+}
+
+ 
+                  /* Gallery section  */ 
+        
+ #photo
+ {
+    width: 100%;
+}
+#gallerydata
+{
+    text-align: center;
+}
+.row
+{
+    display: flex;
+    justify-content: center;    
+}
+.row img
+{
+    padding: 10px;
+}
+#photo .button
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+    /* services */
+
+
+#service
+{
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/services-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:80px ;
+}
+#servicedata
+{
+    text-align: center;
+    padding: 80px;
+}
+#servicebanner
+{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#servicebanner p
+{
+    padding: 20px;
+}
+#servicebanner img
+{
+    height: 55px;
+    width: 45px;
+}
+#box1
+{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(219, 104, 46);
+    transition: 1s;
+    overflow: hidden;
+}
+#box1_data
+{
+    font-size: 30px; 
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+#box1:hover 
+{
+    background-color: rgb(227, 224, 224); 
+    height: 320px; 
+}
+.sbuttom button
+{
+    height: 55px;
+    width: 170px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#box2
+{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(219, 104, 46);
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 1s;
+    overflow: hidden;
+}
+#box2:hover 
+{
+    background-color: rgb(227, 224, 224);
+    height: 320px;  
+}
+#box3
+{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(219, 104, 46);
+    transition: 1s;
+    overflow: hidden;
+}
+#box3:hover 
+{
+    background-color: rgb(227, 224, 224); 
+    height: 320px; 
+}
+
+     /*Testimonial*/
+    
+#testimonial
+{
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+#testimonialdata p
+{
+    padding: 10px;
+}
+#testimonialdata2 
+{
+    width: 1100px;
+    height: 160px;
+}
+#testimonialdata2 p
+{
+    padding-top: 40px;
+    margin-left: 100px;
+}
+#slidebutton
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;    
+}
+.slide
+{
+    height: 20px;
+    width: 60px;
+    background-color: black;
+    margin-right: 5px;
+    border-radius: 15px;
+    transition: 1s;
+}
+.slide:hover
+{
+    background-color: rgb(219, 104, 46);
+}
+
+   /*Contact  */
+
+#contactdata
+{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#contactdata2
+{
+    height: 530px;
+    width: 50%;
+    background-image: url("../image/img-9.png"); 
+    background-size: cover;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+#contactdata2 input
+{
+    height: 55px;
+    width: 600px;
+    margin-bottom: 20px; 
+    border-radius: 40px;
+    border: 2px;  
+    padding-left: 20px;
+    font-size: 20px;
+}
+#contactdata2 textarea
+{
+    height: 150px;
+    width: 600px;
+    margin-bottom: 20px; 
+    border-radius: 50px;
+    border: none;  
+    padding-left: 20px;
+    font-size: 20px;
+    padding-top: 50px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+#button
+{
+    height: 55px;
+    width: 170px;
+    background-color: rgb(219, 104, 46);
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition-duration: 0.5s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#button:hover
+{
+    background-color: black;
+}
+#map iframe
+{
+    height: 530px;
+    width: 50%;
+    float: left;
+}
+
+      /*   menubar  */
+
+
+#blackbox
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.845);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastbox
+{
+    height: 180px;
+    width: 250px;
+    margin-right: 30px;   
+}
+#box
+{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.lastbox p
+{
+    font-size: 14px;
+    color: rgb(225, 224, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lastbox a
+{
+    text-decoration: none;
+    color: rgb(225, 224, 224);
+    transition: 1s;  
+}
+.lastbox:hover
+{
+    color: rgb(219, 104, 46);
+}
+#menu
+{  
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+#link
+{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+#contact
+{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+    text-decoration: none;
+}

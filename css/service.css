@@ -1,0 +1,174 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+#header
+{
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.858);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#toplogo
+{
+    width: 350px;
+    height: 60px;
+    padding-left: 30px;
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#topmenu
+{
+    width: 500px;
+    height: 35px;
+
+}
+#topmenu ul
+{
+    list-style-type: none;
+    display: flex;
+}
+#topmenu ul li
+{
+    width: 100px;
+}
+#topmenu ul li a
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#topmenu ul li a:hover
+{
+    color: rgb(185, 77, 23);
+}
+#service
+{
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/services-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:80px ;
+}
+#servicedata
+{
+    text-align: center;
+    padding: 80px;
+}
+#servicebanner
+{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#servicebanner p
+{
+    padding: 20px;
+}
+#servicebanner img
+{
+    height: 55px;
+    width: 45px;
+}
+#box1
+{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(219, 104, 46);
+    transition: 1s;
+}
+#box1_data
+{
+    font-size: 30px; 
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+#box1:hover 
+{
+    background-color: rgb(227, 224, 224);  
+}
+#box2
+{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(219, 104, 46);
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 1s;
+}
+#box2:hover 
+{
+    background-color: rgb(227, 224, 224);  
+}
+#box3
+{
+    height: 250px;
+    width: 350px;
+    background-color: rgb(219, 104, 46);
+    transition: 1s;
+}
+#box3:hover 
+{
+    background-color: rgb(227, 224, 224);  
+}
+
+     /*Testimonial*/
+    
+#testimonial
+{
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+#testimonialdata p
+{
+    padding: 10px;
+}
+#testimonialdata2 
+{
+    width: 1100px;
+    height: 160px;
+}
+#testimonialdata2 p
+{
+    padding-top: 40px;
+    margin-left: 100px;
+}
+#slidebutton
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;    
+}
+.slide
+{
+    height: 20px;
+    width: 60px;
+    background-color: black;
+    margin-right: 5px;
+    border-radius: 15px;
+    transition: 1s;
+}
+.slide:hover
+{
+    background-color: rgb(219, 104, 46);
+}
